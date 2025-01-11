@@ -21,7 +21,7 @@ import com.example.myapplication.ui.theme.MyApplicationTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState) // initialize the app and its UI
-
+        setContentView(R.layout.activity_main);
         enableEdgeToEdge() // function configures app to be full screen
 
         // Where the UI is defined, Compose allows defining UI in Kotlin code
